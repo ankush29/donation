@@ -76,3 +76,45 @@
 	bottom: 0;
 	display: none;
 }
+
+@media only screen and (min-width: 321px) and (max-device-width: 768px) { 
+	#curr { 
+		width: 100%;
+	}
+	#give_now_button { 
+		width: 100%;
+	}
+	.additional div { 
+		margin-bottom: 0;
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 320px) { 
+
+	#curr { 
+		width: 100%;
+	}
+	#give_now_button { 
+		width: 100%;
+	}
+	.additional div { 
+		margin-bottom: 0;
+		margin-top: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 992px) {
+	#curr { 
+		width: 100%;
+	}
+	#give_now_button { 
+		width: 100%;
+	}
+	.additional div { 
+		margin-bottom: 0;
+		margin-top: 15px;
+	}
+
+}
